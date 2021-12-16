@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "voice_tasks": "https://raw.githubusercontent.com/danielmlow/reproschema-library/3ce23c575e71e5e5d8b6d830fb7be793848d8eca/activities/VoiceTask/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "sutva_schema",
+    "prefLabel": "sutva_schema",
+    "description": "sutva_schema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+	        {
+                "variableName": "sutva2_do_you_know_people_participating",
+                "isAbout": "items/sutva2_do_you_know_people_participating"
+            },
+	        {
+                "variableName": "sutva3_how_many_people",
+                "isAbout": "items/sutva3_how_many_people",
+                "isVis": "sutva2_do_you_know_people_participating !== 0"
+            },
+	        {
+                "variableName": "sutva4_how_often_talk",
+                "isAbout": "items/sutva4_how_often_talk",
+                "isVis": "sutva2_do_you_know_people_participating !== 0"
+            },
+	        {
+                "variableName": "sutva5_how_much_talk",
+                "isAbout": "items/sutva5_how_much_talk",
+                "isVis": "sutva2_do_you_know_people_participating !== 0"
+            }
+        ],
+        "order": [
+        "items/sutva2_do_you_know_people_participating",
+		"items/sutva3_how_many_people",
+		"items/sutva4_how_often_talk",
+		"items/sutva5_how_much_talk"
+        ],
+        "shuffle": false
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sutva3_how_many_people",
+    "prefLabel": "sutva3_how_many_people",
+    "description": "sutva3_how_many_people",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "How many people do you know or maybe know in the study? (Write number)",
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:positiveInteger"
+    }
+}

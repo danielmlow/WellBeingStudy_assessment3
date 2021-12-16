@@ -1,0 +1,17 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+  "@type": "reproschema:Field",
+  "@id": "past_recent_happy_exp",
+  "prefLabel": "past_recent_happy_exp",
+  "description": "past_recent_happy_exp",
+  "schemaVersion": "1.0.0-rc4",
+  "version": "0.0.1",
+  "question": "Tell us about a recent happy experience based on experiences from the past month?",
+  "ui": {
+    "inputType": "textarea"
+  },
+  "responseOptions": {
+    "valueType": "xsd:string",
+    "maxLength": 10000
+  }
+}

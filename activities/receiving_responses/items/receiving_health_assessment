@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "receiving_health_assessment",
+    "prefLabel": "receiving_health_assessment",
+    "description": "receiving_health_assessment",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Would you like to receive a health assessment summarizing your responses to Assessment 1, 2, and 3 (with measures related to your mental health, wellbeing, empathy, and personality) and your daily scores? This could be a nice memory to look back on at in some months or years. Want us to send it to you at the end of the challenge by email?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 1,
+        "multipleChoice": false,
+        "choices": [
+          {
+            "name": "Yes",
+            "value": 1
+          },
+          {
+              "name": "No",
+              "value": 0
+          }
+        ]
+    }
+}

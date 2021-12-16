@@ -1,0 +1,17 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+  "@type": "reproschema:Field",
+  "@id": "future_distant_society",
+  "prefLabel": "future_distant_society",
+  "description": "future_distant_society",
+  "schemaVersion": "1.0.0-rc4",
+  "version": "0.0.1",
+  "question": "Some people argue society is improving and mention trends like life expectancy is increasing and income inequality is decreasing. Others disagree and believe the world's societes can collapse. Where do you think the world is heading in 50 to 100 years? What changes should we pay attention to?",
+  "ui": {
+    "inputType": "textarea"
+  },
+  "responseOptions": {
+    "valueType": "xsd:string",
+    "maxLength": 10000
+  }
+}

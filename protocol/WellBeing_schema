@@ -1,0 +1,111 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/506664be88722dcddc49876b1fb36131fded6c50/activities/"
+        }
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "WellBeing_schema",
+    "prefLabel": {
+        "en": "Wellbeing challenge"
+        },
+    "description": "Wellbeing challenge",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "landingPage": {
+            "@id": "README-en.md",
+            "inLanguage": "en"
+    },
+    "ui": {
+        "order": [
+            "../activities/receiving_responses/receiving_responses_schema",
+            "../activities/audio_check/audio_check_schema",
+            "../activities/voice_tasks/voice_tasks_schema",
+            "../activities/wellbeing/wellbeing_schema",
+            "../activities/prior_experience/prior_experience_schema",
+            "../activities/sutva/sutva_schema",
+            "../activities/mental_health/mental_health_schema",
+            "../activities/writing_tasks/writing_tasks_schema",
+            "../activities/feedback/feedback_schema",
+            "activity_path:ThankYou/ThankYou_schema"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "isAbout": "../activities/audio_check/audio_check_schema",
+                "variableName": "audio_check",
+                "prefLabel": {
+                    "en": "Audio check (short)"
+                }
+            },
+            {
+                "isAbout": "../activities/receiving_responses/receiving_responses_schema",
+                "variableName": "receiving_responses",
+                "prefLabel": {
+                    "en": "Receive responses? (short)"
+                }
+            },
+            {
+                "isAbout": "../activities/sutva/sutva_schema",
+                "variableName": "sutva",
+                "prefLabel": {
+                    "en": "General questions (short)"
+                }
+            },
+            {
+                "isAbout": "../activities/prior_experience/prior_experience_schema",
+                "variableName": "prior_experience",
+                "prefLabel": {
+                    "en": "Prior experience (short)"
+                }
+            },
+            {
+                "isAbout": "../activities/wellbeing/wellbeing_schema",
+                "variableName": "wellbeing",
+                "prefLabel": {
+                    "en": "Wellbeing"
+                }
+            },
+            {
+                "isAbout": "../activities/voice_tasks/voice_tasks_schema",
+                "variableName": "voice_tasks",
+                "prefLabel": {
+                    "en": "Voice Tasks"
+                }
+            },
+            {
+                "isAbout": "../activities/mental_health/mental_health_schema",
+                "variableName": "mental_health",
+                "prefLabel": {
+                    "en": "Mental Health"
+                }
+            },
+            {
+                "isAbout": "../activities/writing_tasks/writing_tasks_schema",
+                "variableName": "writing_tasks",
+                "prefLabel": {
+                    "en": "Writing Tasks"
+                }
+            },
+            {
+                "isAbout": "../activities/feedback/feedback_schema",
+                "variableName": "feedback",
+                "prefLabel": {
+                    "en": "Feedback (short)"
+                }
+            },
+            {
+                "isAbout": "activity_path:ThankYou/ThankYou_schema",
+                "variableName": "ThankYou_schema",
+                "prefLabel": {
+                    "en": "Submit responses (short)"
+                }
+            }
+        ],
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
+    }
+}

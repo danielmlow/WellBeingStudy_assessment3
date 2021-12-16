@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sutva5_how_much_talk",
+    "prefLabel": "sutva5_how_much_talk",
+    "description": "sutva5_how_much_talk",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Did you talk about the study with this/these participant/s?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 1,
+        "maxValue": 3,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "No",
+                "value": 0
+            },
+            {
+                "name": "A little",
+                "value": 1
+            },
+            {
+                "name": "A lot",
+                "value": 2
+            }
+        ]
+    }
+}

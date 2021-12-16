@@ -1,0 +1,47 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "writing_tasks_schema",
+    "prefLabel": "voice tasks",
+    "description": "Voice tasks",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "We're almost done. To finish, we now want to do a series of journaling exercises. We hope you enjoy them! <br><br>Write freely and honestly, your answers will be anonymous, and don’t worry about grammar."
+    },
+    "ui": {
+        "addProperties": [
+	        {
+                "variableName": "future_distant_society",
+                "isAbout": "items/future_distant_society"
+            },
+	        {
+                "variableName": "past_distant_grown",
+                "isAbout": "items/past_distant_grown"
+            },
+	        {
+                "variableName": "big_life_events",
+                "isAbout": "items/big_life_events"
+            },
+            {
+                "variableName": "past_recent_happy_exp",
+                "isAbout": "items/past_recent_happy_exp"
+            },
+	        {
+                "variableName": "future_st_challenge_overcome",
+                "isAbout": "items/future_st_challenge_overcome"
+            }
+        ],
+        "order": [
+
+	        "items/past_recent_happy_exp",
+	        "items/future_st_challenge_overcome",
+            "items/past_distant_grown",
+            "items/future_distant_society",
+	        "items/big_life_events"
+        ],
+        "shuffle": true
+    }
+}

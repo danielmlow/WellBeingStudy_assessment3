@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "meditation4_how_much_per_day",
+    "prefLabel": "meditation4_how_much_per_day",
+    "description": "meditation4_how_much_per_day",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "How long do you meditate on a typical day? (in minutes)",
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:positiveInteger"
+    }
+}

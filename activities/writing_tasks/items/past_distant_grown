@@ -1,0 +1,17 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+  "@type": "reproschema:Field",
+  "@id": "past_distant_grown",
+  "prefLabel": "past_distant_grown",
+  "description": "past_distant_grown",
+  "schemaVersion": "1.0.0-rc4",
+  "version": "0.0.1",
+  "question": "How have you grown in the past? Please describe an important lesson you learned about yourself related to relationships, work, or health? Has what you've learned helped you avoid problems or overcome challenges later on? How so?",
+  "ui": {
+    "inputType": "textarea"
+  },
+  "responseOptions": {
+    "valueType": "xsd:string",
+    "maxLength": 10000
+  }
+}

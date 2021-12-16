@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sutva4_how_often_talk",
+    "prefLabel": "sutva4_how_often_talk",
+    "description": "sutva4_how_often_talk",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "To understand whether participants can influence each other's participation, we would like to know roughly how often you talk with the participant you talk with most?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 1,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Daily",
+                "value": 1
+            },
+            {
+                "name": "Weekly",
+                "value": 2
+            },
+            {
+                "name": "Monthly",
+                "value": 3
+            },
+            {
+                "name": "A couple of times a year",
+                "value": 4
+            },
+            {
+                "name": "Almost never",
+                "value": 5
+            }
+        ]
+    }
+}

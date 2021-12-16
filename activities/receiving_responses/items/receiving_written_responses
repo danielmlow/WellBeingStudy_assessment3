@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "receiving_written_responses",
+    "prefLabel": "receiving_written_responses",
+    "description": "receiving_written_responses",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Would you like to receive what you write in the journaling exercises during the challenge? We can send this to you by email at the end of the challenge.",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 1,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 1
+            },
+            {
+                "name": "No",
+                "value": 0
+            }
+        ]
+    }
+}

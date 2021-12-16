@@ -1,0 +1,17 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+  "@type": "reproschema:Field",
+  "@id": "future_st_challenge_overcome",
+  "prefLabel": "future_st_challenge_overcome",
+  "description": "future_st_challenge_overcome",
+  "schemaVersion": "1.0.0-rc4",
+  "version": "0.0.1",
+  "question": "What is a challenge that you are facing right now related to work, health, or relationships? Will you be able to overcome it? Why or why not?",
+  "ui": {
+    "inputType": "textarea"
+  },
+  "responseOptions": {
+    "valueType": "xsd:string",
+    "maxLength": 10000
+  }
+}

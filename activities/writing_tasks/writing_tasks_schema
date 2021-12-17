@@ -30,14 +30,13 @@
                 "isAbout": "items/past_recent_happy_exp"
             },
 	        {
-                "variableName": "future_st_challenge_overcome_part2",
-                "isAbout": "items/future_st_challenge_overcome_part2"
+                "variableName": "futurechallenge_overcome_second",
+                "isAbout": "items/future_challenge_overcome_second"
             }
         ],
         "order": [
-
 	        "items/past_recent_happy_exp",
-	        "items/future_st_challenge_overcome_part2",
+	        "items/future_challenge_overcome_second",
             "items/past_distant_grown",
             "items/future_how_want_be_remembered",
 	        "items/big_life_events"

@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/506664be88722dcddc49876b1fb36131fded6c50/activities/"
+            "activity_path": "https://raw.githubusercontent.com/danielmlow/reproschema-library/daf7e77942f6aa7736c165a301018aa2f1641b4d/activities/"
         }
     ],
     "@type": "reproschema:Protocol",
@@ -19,12 +19,10 @@
     },
     "ui": {
         "order": [
-            "../activities/receiving_responses/receiving_responses_schema",
             "../activities/audio_check/audio_check_schema",
             "../activities/voice_tasks/voice_tasks_schema",
             "../activities/wellbeing/wellbeing_schema",
-            "../activities/prior_experience/prior_experience_schema",
-            "../activities/sutva/sutva_schema",
+            "../activities/seasonal_effects_holidays/seasonal_effects_holidays_schema",
             "../activities/mental_health/mental_health_schema",
             "../activities/writing_tasks/writing_tasks_schema",
             "../activities/feedback/feedback_schema",
@@ -40,31 +38,17 @@
                 }
             },
             {
-                "isAbout": "../activities/receiving_responses/receiving_responses_schema",
-                "variableName": "receiving_responses",
-                "prefLabel": {
-                    "en": "Receive responses? (short)"
-                }
-            },
-            {
-                "isAbout": "../activities/sutva/sutva_schema",
-                "variableName": "sutva",
-                "prefLabel": {
-                    "en": "General questions (short)"
-                }
-            },
-            {
-                "isAbout": "../activities/prior_experience/prior_experience_schema",
-                "variableName": "prior_experience",
-                "prefLabel": {
-                    "en": "Prior experience (short)"
-                }
-            },
-            {
                 "isAbout": "../activities/wellbeing/wellbeing_schema",
                 "variableName": "wellbeing",
                 "prefLabel": {
                     "en": "Wellbeing"
+                }
+            },
+            {
+                "isAbout": "../activities/seasonal_effects_holidays/seasonal_effects_holidays_schema",
+                "variableName": "seasonal_effects_holidays",
+                "prefLabel": {
+                    "en": "Holidays (short)"
                 }
             },
             {

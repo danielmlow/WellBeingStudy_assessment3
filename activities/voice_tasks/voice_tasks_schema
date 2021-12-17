@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "voice_tasks": "https://raw.githubusercontent.com/danielmlow/reproschema-library/0d97766186c291fbff33dfb5e95b1810ec813dd8/activities/VoiceTask/items/"
+            "voice_tasks": "https://raw.githubusercontent.com/danielmlow/reproschema-library/daf7e77942f6aa7736c165a301018aa2f1641b4d/activities/VoiceTask/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -22,8 +22,8 @@
                 "isAbout": "voice_tasks:say_ah"
             },
             {
-                "variableName": "fruit_fluency",
-                "isAbout": "voice_tasks:fruit_fluency"
+                "variableName": "furniture_fluency",
+                "isAbout": "voice_tasks:furniture_fluency"
             },
             {
                 "variableName": "free_speech_general_mood",
@@ -38,7 +38,7 @@
             "voice_tasks:say_ah",
             "voice_tasks:free_speech_general_mood",
 	        "voice_tasks:rainbow_passage_short_normal",
-	        "voice_tasks:fruit_fluency"
+	        "voice_tasks:furniture_fluency"
         ],
         "shuffle": true
     }

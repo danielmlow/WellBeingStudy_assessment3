@@ -6,27 +6,20 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "receiving_responses_schema",
-    "prefLabel": "receiving responses",
-    "description": "receiving responses",
+    "@id": "seasonal_effects_holidays_schema",
+    "prefLabel": "seasonal_effects_holidays",
+    "description": "seasonal_effects_holidays",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
         "addProperties": [
         	        {
-                        "variableName": "receiving_health_assessment",
-                        "isAbout": "items/receiving_health_assessment"
-                    },
-                    {
-                        "variableName": "receiving_responses1",
-                        "isAbout": "items/receiving_written_responses"
+                        "variableName": "holidays",
+                        "isAbout": "items/holidays"
                     }
-
-
         ],
         "order": [
-            "items/receiving_health_assessment",
-            "items/receiving_written_responses"
+            "items/holidays"
         ],
         "shuffle": false
     }

@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "holidays",
+    "prefLabel": "holidays",
+    "description": "holidays",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "How do you generally feel during the holiday season (November to January with holidays including Thanksgiving, Christmas, Hanukkah and New Year's)?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 1,
+        "maxValue": 5,
+        "multipleChoice": false,
+        "choices": [
+          {
+            "name": "Very happy",
+            "value": 5
+          },
+          {
+            "name": "Slightly happy",
+            "value": 4
+          },
+          {
+            "name": "Neutral",
+            "value": 3
+          },
+          {
+            "name": "Slightly sad",
+            "value": 2
+          },
+          {
+              "name": "Very sad",
+              "value": 1
+          }
+        ]
+    }
+}

@@ -14,8 +14,8 @@
     "ui": {
         "addProperties": [
 	        {
-                "variableName": "future_how_want_be_remembered",
-                "isAbout": "items/future_how_want_be_remembered"
+                "variableName": "future_how_want_to_be_remembered",
+                "isAbout": "items/future_how_want_to_be_remembered"
             },
 	        {
                 "variableName": "past_distant_grown",
@@ -30,17 +30,17 @@
                 "isAbout": "items/past_recent_happy_exp"
             },
 	        {
-                "variableName": "futurechallenge_overcome_second",
-                "isAbout": "items/future_challenge_overcome_second"
+                "variableName": "future_st_challenge_overcome_second",
+                "isAbout": "items/future_st_challenge_overcome_second"
             }
         ],
         "order": [
 	        "items/past_recent_happy_exp",
-	        "items/future_challenge_overcome_second",
+	        "items/future_st_challenge_overcome_second",
             "items/past_distant_grown",
-            "items/future_how_want_be_remembered",
+            "items/future_how_want_to_be_remembered",
 	        "items/big_life_events"
         ],
-        "shuffle": false
+        "shuffle": true
     }
 }

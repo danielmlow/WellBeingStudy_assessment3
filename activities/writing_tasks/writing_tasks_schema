@@ -42,6 +42,6 @@
             "items/future_how_want_be_remembered",
 	        "items/big_life_events"
         ],
-        "shuffle": true
+        "shuffle": false
     }
 }
